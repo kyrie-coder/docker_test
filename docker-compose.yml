@@ -3,7 +3,8 @@ version: '3.8'
 services:
   #MYSQL 数据库
   mysql:
-    image: mysql:8.0.40
+    #image: mysql:8.0.40
+    build: ./mysql
     container_name: mysql-container
     environment:
       MYSQL_ROOT_PASSWORD: lt.123456
