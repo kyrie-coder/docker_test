@@ -22,7 +22,7 @@ services:
     build: ./springboot  # Spring Boot 项目的路径
     container_name: springboot-container
     #environment:
-      #- SPRING_DATASOURCE_URL=jdbc:mysql://192.168.88.3:3306/docker_test
+      #- SPRING_DATASOURCE_URL=jdbc:mysql://localhost:3306/docker_test
       #- SPRING_DATASOURCE_USERNAME=root
       #- SPRING_DATASOURCE_PASSWORD=lt.123456
     ports:
